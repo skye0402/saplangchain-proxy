@@ -1,0 +1,1 @@
+from saplangchainproxy.embeddings.openai import SAPOpenAIEmbeddings

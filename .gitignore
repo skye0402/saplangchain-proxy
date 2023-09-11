@@ -1,3 +1,4 @@
 /src/__pycache__
 /src/*.egg-info
 /dist
+__pycache__/

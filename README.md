@@ -34,7 +34,7 @@ OPENAI_TOKENURL
 ## Example code
 Use below examples for LLM or Chat models in langchain
 ```python
-from saplangchainproxy.chat.openai import SAPChatOpenAI
+from saplangchainproxy.chat import SAPChatOpenAI
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 chat = SAPChatOpenAI(model='gpt-4', temperature=0.0)
@@ -46,7 +46,7 @@ test_string = "Hello I'm an AI."
 test_reply = conversation.run(f"Just answer with '{test_string}'. Nothing else.")
 print(f"AI response is: {test_reply}")
 
-from saplangchainproxy.llm.openai import SAPAzureOpenAI
+from saplangchainproxy.llm import SAPAzureOpenAI
 llm = SAPAzureOpenAI(temperature=0.0)
 test_string = "Hello I'm an AI."
 test_reply = llm(f"Just answer with '{test_string}'. Nothing else.")

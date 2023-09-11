@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sapapj-langchain-proxy"
-version = "0.0.1"
+version = "0.0.2"
 description = "Connect langchain to SAP's AI proxy."
 readme = "README.md"
 authors = [{ name = "Skye0402", email = "albrechg@yahoo.com" }]
