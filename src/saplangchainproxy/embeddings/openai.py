@@ -160,7 +160,7 @@ class SAPOpenAIEmbeddings(BaseModel, Embeddings):
             default="",
         )
         try:
-            import sap.sapwrapper as sapwrapper
+            import  saplangchainproxy.sapwrapper as sapwrapper
             if openai_api_client_id:
                 sapwrapper.openai_api_client_id = openai_api_client_id
             if openai_api_client_secret:

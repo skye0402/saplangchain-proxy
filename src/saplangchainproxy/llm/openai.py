@@ -252,7 +252,7 @@ class BaseSAPAzureOpenAI(BaseLLM):
             default="",
         )        
         try:
-            import sap.sapwrapper as sapwrapper           
+            import saplangchainproxy.sapwrapper as sapwrapper           
             values["client"] = sapwrapper.Completion            
         except ImportError:
             raise ValueError(

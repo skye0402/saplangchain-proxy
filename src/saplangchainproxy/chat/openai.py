@@ -244,7 +244,7 @@ class SAPChatOpenAI(BaseChatModel):
             default="",
         )
         try:
-            import sap.sapwrapper as sapwrapper
+            import saplangchainproxy.sapwrapper as sapwrapper
         except ImportError:
             raise ValueError(
                 "Could not import sapopenaiwrapper python package. "
