@@ -9,7 +9,7 @@ name = "sapapj-langchain-proxy"
 version = "0.0.1"
 description = "Connect langchain to SAP's AI proxy."
 readme = "README.md"
-authors = [{ name = "Gunter Albrecht", email = "gunter@sap.com" }]
+authors = [{ name = "Skye0402", email = "albrechg@yahoo.com" }]
 license = { file = "LICENSE" }
 classifiers = [
     "License :: OSI Approved :: MIT License",
